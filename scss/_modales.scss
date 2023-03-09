@@ -1,0 +1,39 @@
+.modal-content {
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.6);
+    border: 0px;
+}
+
+.modal-header {
+    background-color: $color-2;
+    color: white;
+    height: 65px;
+}
+
+.modal-body {
+    background-color: $color-1;
+    color: white;
+}
+
+.modal-footer {
+    @extend .modal-header;
+}
+
+.parrafoModal {
+    font-size: medium;
+}
+
+.botonCerrar {
+    background-color: $color-3;
+    border: 0px;
+    color: $color-1;
+    font-weight: bold;
+    transition: all 1s;
+
+    &:hover{
+        background-color: $color-1;
+        color: $color-3;
+        transition: all 1s;
+        border: 0px;
+        
+    }
+}

@@ -7,7 +7,7 @@ p{
 }
 
 .lista{
-    font-size: $grande2;
+    @extend p;
 }
 
 .imgMain {

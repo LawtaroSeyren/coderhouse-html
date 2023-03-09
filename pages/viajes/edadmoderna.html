@@ -73,26 +73,19 @@
       <div class="galeria">
 
           <div class="destino" id="y1492">
-            <a href="#">
-              <button>AÑO 1492</button>
-            </a>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#modal1492">AÑO 1492</button>
           </div>
 
         <div class="destino" id="y1504">
-          <a href="#">
-            <button>AÑO 1504</button>
-          </a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1504">AÑO 1504</button>
         </div>
+
         <div class="destino" id="y1623">
-          <a href="#">
-            <button>Año 1623</button>
-          </a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1623">Año 1623</button>
         </div>
 
         <div class="destino" id="y1688">
-          <a href="#">
-            <button>Año 1688</button>
-          </a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1688">Año 1688</button>
         </div>
 
       </div>
@@ -100,7 +93,83 @@
 
     </main>
 
+    <!-- MODALS -->
+    
+    <div class="modal fade" id="modal1492" tabindex="-1" aria-labelledby="modal1492Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1492Label">AÑO 1492</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1492.jpg">
+            <p class="parrafoModal">
+              Vení a presenciar el momento histórico en el que Cristóbal Colón llegó a la isla de Guanahaní, conocida actualmente como San Salvador en las Bahamas. Sentí la emoción del comienzo de un nuevo mundo.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal fade" id="modal1504" tabindex="-1" aria-labelledby="modal1504Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1504Label">AÑO 1504</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1504.jpg">
+            <p class="parrafoModal">
+              Te invitamos a ser parte de la inauguración de una de las obras de arte más famosas del mundo: El David, de Miguel Ángel. Vas a viajar a Florencia, Italia, para observar detenidamente esta imponente estatua de mármol, que se ha convertido en un símbolo del Renacimiento y la perfección humana.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal1623" tabindex="-1" aria-labelledby="modal1623Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1623Label">AÑO 1623</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1623.jpg">
+            <p class="parrafoModal">
+              Bienvenido a París, Francia, en donde vas a sentir el esplendor de la monarquía francesa en la inauguración del Palacio de Versalles. Admirá la majestuosidad de sus jardines, la grandiosidad de sus salones y la belleza de sus obras de arte, que reflejan la opulencia y el poder de la época.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal1688" tabindex="-1" aria-labelledby="modal1688Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1688Label">AÑO 1688</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1688.jpg">
+            <p class="parrafoModal">
+              Experimentá la revolución industrial en Inglaterra, el país que lideró el camino hacia la modernidad. Visitá las fábricas, los molinos y los talleres donde se producían las innovaciones tecnológicas que cambiaron el mundo. Descubrí cómo la máquina de vapor, la hiladora y otros inventos transformaron la forma en que se trabajaba y se vivía. Sé testigo de la creación de una nueva era en la historia de la humanidad.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div> 
 
       <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="d-flex align-items-center">
@@ -124,6 +193,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="../../js/app.js"></script>
 </body>
 </html>

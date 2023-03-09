@@ -34,16 +34,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-p {
+p, .lista {
   font-size: larger;
 }
 
 .blockquote-footer {
   font-size: large;
-}
-
-.lista {
-  font-size: larger;
 }
 
 .imgMain {
@@ -195,8 +191,8 @@ h4 {
   background-image: url(../imgs/1969.png);
 }
 
-#y1989 {
-  background-image: url(../imgs/1989.png);
+#y1983 {
+  background-image: url(../imgs/1983.png);
 }
 
 #y2427 {
@@ -245,6 +241,40 @@ h4 {
 
 #d1812 {
   background-image: url(../imgs/d1812.png);
+}
+
+.modal-content {
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6);
+  border: 0px;
+}
+
+.modal-header, .modal-footer {
+  background-color: #2b3035;
+  color: white;
+  height: 65px;
+}
+
+.modal-body {
+  background-color: #212529;
+  color: white;
+}
+
+.parrafoModal {
+  font-size: medium;
+}
+
+.botonCerrar {
+  background-color: #f7b633;
+  border: 0px;
+  color: #212529;
+  font-weight: bold;
+  transition: all 1s;
+}
+.botonCerrar:hover {
+  background-color: #212529;
+  color: #f7b633;
+  transition: all 1s;
+  border: 0px;
 }
 
 /* TABLET */

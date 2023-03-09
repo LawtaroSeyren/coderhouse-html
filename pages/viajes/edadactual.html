@@ -71,28 +71,20 @@
         
       <div class="mainGaleria">
       <div class="galeria">
-          <div class="destino" id="y1789">
-            <a href="#">
-              <button>AÑO 1789</button>
-            </a> 
-          </div>
+        <div class="destino" id="y1789">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1789">AÑO 1789</button> 
+        </div>
 
         <div class="destino" id="y1945">
-          <a href="#">
-            <button>AÑO 1945</button>
-          </a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1945">AÑO 1945</button>
         </div>
         
         <div class="destino" id="y1969">
-          <a href="#">
-            <button>Año 1969</button>
-          </a>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1969">Año 1969</button>
         </div>
 
-        <div class="destino" id="y1989">
-          <a href="#">
-            <button>Año 1989</button>
-          </a>
+        <div class="destino" id="y1983">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal1983">Año 1983</button>
         </div>
 
       </div>
@@ -100,7 +92,83 @@
 
     </main>
 
+    <!-- MODALS -->
+    
+    <div class="modal fade" id="modal1789" tabindex="-1" aria-labelledby="modal1789Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1789Label">AÑO 1789</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1789.jpg">
+            <p class="parrafoModal">
+              ¡Bienvenido a la Revolución Francesa! Suméergite en la Francia del siglo XVIII y experimentá el fervor y la pasión que caracterizaron a aquellos que lucharon por la libertad, la igualdad y la fraternidad. Descubrí cómo se gestó una revolución que cambió para siempre la historia de Europa y del mundo, desde el asalto a la Bastilla hasta el Reinado del Terror. Explorá las calles de París y descubrí los lugares donde se libraron las batallas más importantes de esta época fascinante.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal fade" id="modal1945" tabindex="-1" aria-labelledby="modal1945Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1945Label">AÑO 1945</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1945.jpg">
+            <p class="parrafoModal">
+              ¡Te invitamos a celebrar la victoria de Estados Unidos en la Segunda Guerra Mundial! Unite a la multitud que se tomó las calles para festejar el triunfo. Viví la euforia de aquellos días y experimentá la alegría que inundó a la nación cuando se conoció la noticia. Y si querés, presenciá el famoso beso que selló la victoria y se convirtió en un símbolo de esperanza. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal1969" tabindex="-1" aria-labelledby="modal1969Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1969Label">AÑO 1969</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1969.jpg">
+            <p class="parrafoModal">
+              Preparate para vivir la llegada del hombre a la luna como nunca antes! Sumate a la emoción que se sintió en todo el mundo cuando el Apolo 11 alunizó en la superficie lunar. Descubrí cómo se vivió este hito de la exploración espacial en el mejor lugar de la Tierra para hacerlo. Sentí el asombro y la admiración de los espectadores que presenciaron este momento histórico y sé parte de la aventura que cambió nuestra percepción del universo para siempre.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal1983" tabindex="-1" aria-labelledby="modal1983Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modal1983Label">AÑO 1983</h1>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="../../imgs/foto1983.jpg">
+            <p class="parrafoModal">
+              ¡Celebrá el retorno de la democracia en Argentina! Unite a la fiesta que se vivió en las calles de Buenos Aires cuando se anunció el fin de la dictadura militar. Experimentá la alegría y la emoción que se sintió en aquel momento histórico y descubrí cómo se gestó el movimiento que llevó a la recuperación de la libertad y los derechos humanos en el país. Sumergite en la cultura y la sociedad de la Argentina de los años 80 y sé parte de esta historia que marcó un antes y un después en la vida de millones de personas.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary botonCerrar" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>  
 
       <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="d-flex align-items-center">
@@ -124,6 +192,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="../../js/app.js"></script>
 </body>
 </html>
