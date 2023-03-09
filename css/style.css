@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .nav-link:hover {
   color: #f7b633;
 }
@@ -30,7 +31,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -114,7 +115,7 @@ h4 {
   margin: 20px;
   border-radius: 5px;
 }
-.destino:hover {
+.destino :hover {
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6);
 }
 .destino button {
@@ -129,7 +130,7 @@ h4 {
   transition: background-color 1s, color 1s;
   cursor: pointer;
 }
-.destino button:hover {
+.destino button :hover {
   background-color: #f7b633;
   color: #212529;
 }
