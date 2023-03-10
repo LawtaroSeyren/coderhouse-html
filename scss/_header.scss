@@ -17,14 +17,23 @@
     border-color: #ffffff;
     border-radius: 15px;
     padding: 7px;
+    border: 0px;
+
+
+    &:hover{
+        background-color: $color-qatar;
+        color: #ffffff;
+        border-color: $color-qatar;
+        transition: all 1s;
+    }
 }
 
-.botonQatar:hover{
-    background-color: $color-qatar;
-    color: #ffffff;
-    border-color: $color-qatar;
-}
+.dropdown-item {
+    &.active{
+        background-color:$color-1;
+    }
 
-.dropdown-item.active{
-    background-color:$color-2
+    &:active{
+        @extend .dropdown-item, .active;
+    }
 }

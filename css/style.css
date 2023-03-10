@@ -18,18 +18,18 @@
   border-color: #ffffff;
   border-radius: 15px;
   padding: 7px;
+  border: 0px;
 }
-
 .botonQatar:hover {
   background-color: #6C1D45;
   color: #ffffff;
   border-color: #6C1D45;
+  transition: all 1s;
 }
 
-.dropdown-item.active {
-  background-color: #2b3035;
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #212529;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
